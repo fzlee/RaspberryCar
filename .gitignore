@@ -1,0 +1,21 @@
+.DS_Store
+node_modules/
+dist/
+tmp/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+config/dev.env.js
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+# python stuff
+__pycache__
+fab/
+*.pyc

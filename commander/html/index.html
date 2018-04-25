@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <title>树莓派小车控制器</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/commander.io/socket.io.js"></script>
+    <script src="/assets/js/vue.js"></script>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/all.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row  justify-content-md-center" id="app">
+        <div class="operation">
+          <div class="col-auto d-flex justify-content-center">
+            <button class="go arrow btn"  data-direction="up">
+            <div class="fas fa-arrow-up"></div>  
+            </button>
+          </div> 
+          <div class="col-auto">
+            <div class="go arrow" data-direction="left">
+              <i class="fas fa-arrow-left"></i>
+            </div>
+            <div class="go arrow">
+              <i class="fas fa-ban"></i>
+            </div>
+            <div class="go arrow" data-direction="right">
+              <i class="fas fa-arrow-right"></i>  
+            </div>
+          </div>
+          <div class="col-auto d-flex justify-content-center">
+            <div class="go arrow"  data-direction="down">
+              <i class="fas fa-arrow-down"></i>  
+            </div>
+          </div>
+        </div>   
+      </div>
+    </div>
+    
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
